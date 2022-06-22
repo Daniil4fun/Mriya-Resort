@@ -1,0 +1,45 @@
+@keyframes anim {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.sliderInMenu {
+    position: relative;
+    margin-top: -640px;
+    margin-left: 940px;
+    animation: anim 1s forwards;
+}
+
+.sliderInMenu img:nth-of-type(2) {
+    position: absolute;
+    top: 310px;
+    left: 0;
+}
+
+.sliderInMenu div {
+    position: absolute;
+    top: 398px;
+    left: 40px;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.sliderInMenu h3 {
+    font-family: "SangBleu Kingdom B";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.sliderInMenu button {
+    margin-top: 25px;
+    background: #BCA56A;
+    color: #FFFFFF;
+}
+
+@media (max-width: 360px) {
+    .sliderInMenu {
+        display: none;
+    }
+}

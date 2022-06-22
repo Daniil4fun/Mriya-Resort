@@ -1,0 +1,15 @@
+.navLinks {
+    display: flex;
+    margin-left: 60px;
+    white-space: nowrap;
+}
+
+.navLinks NavLink {
+    text-decoration: none;
+}
+
+@media (max-width: 360px) {
+    .navLinks {
+        display: none;
+    }
+}

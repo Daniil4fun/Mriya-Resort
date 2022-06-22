@@ -1,0 +1,11 @@
+.flower {
+    position: absolute;
+    top: 0px;
+    left: 530px;
+}
+
+@media (max-width: 360px) {
+    .flower {
+        display: none;
+    }
+}

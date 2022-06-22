@@ -1,0 +1,21 @@
+.petal {
+    position: absolute;
+    top: 611.73px;
+    left: 806.7px;
+}
+
+.mediaPetal {
+    display: none;
+}
+
+@media (max-width: 360px) {
+    .petal {
+        display: none;
+    }
+    .mediaPetal {
+        display: block;
+        position: absolute;
+        top: 14px;
+        left: 218px;
+    }
+}

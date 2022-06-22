@@ -1,0 +1,19 @@
+.navLangs {
+    display: flex;
+    margin-left: 87px;
+}
+
+.navLangs p {
+    cursor: pointer;
+}
+
+.engLang {
+    margin-left: 24px;
+    color: rgba(0, 0, 0, 0.24);
+}
+
+@media (max-width: 360px) {
+    .navLangs {
+        display: none;
+    }
+}

@@ -1,0 +1,472 @@
+.modalMenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 3786px;
+    background: rgba(255, 255, 255, 0.64);
+    z-index: 2;
+}
+
+.menuItself {
+    width: 1360px;
+    height: 768px;
+    background: #242424;
+    opacity: 0.98;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.menuHead {
+    display: flex;
+    align-items: center;
+    height: 79px;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.08);
+}
+
+.menuLogo {
+    margin-left: 50px;
+    margin-top: 8px;
+}
+
+.navInMenu {
+    display: flex;
+    margin-left: 48px;
+    font-family: "Euclid Circular R";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0.08em;
+    align-items: center;
+}
+
+.navLinkInMenu {
+    margin-left: 64px;
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.navLinkInMenu:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.authInMenu {
+    margin-left: 442px;
+    display: flex;
+    align-items: center;
+}
+
+.authInMenu p {
+    margin-left: 8px;
+    font-family: "Euclid Circular M";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    border-bottom: 1px dashed #FFFFFF;
+    cursor: pointer;
+}
+
+.stripeAndBtns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48px;
+    margin-left: 59px;
+    margin-top: 32px;
+}
+
+.btnsInMenu {
+    margin-top: 32px;
+}
+
+.btnsInMenu div {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #D9C287;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.btnsInMenu div:nth-of-type(1) {
+    margin-top: 0;
+}
+
+.resortMenu {
+    width: 378px;
+    height: 64px;
+    position: absolute;
+    top: 119px;
+    left: 140px;
+    font-family: "Euclid Circular L";
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.navLinkResortMenu {
+    width: 360px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-left: 24px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.navLinkResortMenu:hover {
+    background: rgba(217, 194, 135, 0.16);
+    border-radius: 8px;
+}
+
+.stripeAfterMenu {
+    position: absolute;
+    left: 540px;
+    top: 111px;
+}
+
+.subMenu {
+    position: absolute;
+    display: none;
+    left: 580px;
+    top: 119px;
+}
+
+.subMenu div {
+    font-family: "Euclid Circular L";
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.navLinkSubmenu {
+    width: 312px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.navLinkSubmenu:hover {
+    color: rgba(217, 194, 135, 1);
+}
+
+.subMenu p {
+    margin-top: 220px;
+    margin-left: 14px;
+    width: 321px;
+    font-family: "Euclid Circular L";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.48);
+}
+
+.subMenuActive {
+    display: block;
+}
+
+.sepline {
+    position: absolute;
+    left: 140px;
+    top: 680px;
+}
+
+.sliderPoints {
+    position: absolute;
+    top: 640px;
+    left: 1240px;
+    display: flex;
+    align-items: center;
+}
+
+.sliderPoints div {
+    background: #FFFFFF;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.sliderPoints div:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.firstSlide {
+    background: #FFFFFF;
+}
+
+.secondSlide {
+    background: #FFFFFF;
+}
+
+.thirdSlide {
+    background: #FFFFFF;
+}
+
+.closingCross {
+    position: absolute;
+    width: 80px;
+    height: 79px;
+    background: #3D3C3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 1360px;
+    cursor: pointer;
+}
+
+.mediaLangs {
+    display: none;
+}
+
+.mediaResortMenu {
+    display: none;
+}
+
+.mediaSubmenu {
+    display: none;
+}
+
+.mediaBtn {
+    display: none;
+}
+
+.mediaNavMenu {
+    display: none;
+}
+
+.mediaPhone {
+    display: none;
+}
+
+.mediaMail {
+    display: none;
+}
+
+@media (max-width: 360px) {
+    .modalMenu {
+        width: 360px;
+    }
+
+    .menuItself {
+        width: 360px;
+        height: 1176px;
+    }
+
+    .mediaLangs {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.08em;
+        color: #FFFFFF;
+    }
+
+    .navInMenu {
+        display: none;
+    }
+
+    .menuLogo {
+        margin-top: 0;
+        margin-left: 147px;
+    }
+
+    .closingCross {
+        position: absolute;
+        background: transparent;
+        left: 279px;
+    }
+
+    .authInMenu {
+        display: none;
+    }
+
+    .stripeAndBtns>img {
+        display: none;
+    }
+
+    .btnsInMenu {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 930px;
+        left: 84px;
+    }
+
+    .btnsInMenu div {
+        margin-top: 0;
+        margin-left: 24px;
+    }
+
+    .btnsInMenu div:nth-of-type(1) {
+        margin-left: 0;
+    }
+
+    .resortMenu {
+        display: none;
+    }
+
+    .mediaResortMenu {
+        width: 378px;
+        height: 64px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        font-family: "Euclid Circular L";
+        font-weight: 300;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+    .mediaNavLinkResortMenu {
+        display: block;
+        width: 360px;
+        text-decoration: none;
+        color: #FFFFFF;
+        padding-top: 15px;
+        padding-left: 24px;
+        padding-bottom: 15px;
+        cursor: pointer;
+        border-bottom: 1px solid rgba(217, 194, 135, 0.08);
+    }
+    .mediaNavLinkResortMenu:hover {
+        background: rgba(217, 194, 135, 0.16);
+        border-radius: 8px;
+    }
+    .mediaSubmenu {
+        display: none;
+        list-style: none;
+    }
+    .mediaSubmenu {
+        margin-left: 16px;
+        margin-top: 22px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .mediaSubmenu li {
+        margin-top: 12px;
+    }
+    .mediaSubmenu li:nth-of-type(1) {
+        margin-top: 0;
+    }
+    .mediaNavLinkResortMenu:hover .mediaSubmenu {
+        display: block;
+    }
+    .mediaSubmenu li:hover {
+        color: rgba(217, 194, 135, 1);
+    }
+    .mediaSubmenu::before {
+        content: url('../../icons/arrowBottom.svg');
+        position: absolute;
+        left: 322px;
+        top: 68px;
+    }
+    .stripeAfterMenu {
+        display: none;
+    }
+    .subMenu {
+        display: none;
+    }
+    .sepline {
+        display: none;
+    }
+    .sliderPoints {
+        display: none;
+    }
+    .mediaBtn {
+        display: block;
+        position: absolute;
+        width: 328px;
+        height: 64px;
+        border-radius: 8px;
+        background: #BCA56A;
+        font-family: "Euclid Circular M";
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.08em;
+        color: #FFFFFF;
+        border: none;
+        left: 16px;
+        top: 730px;
+    }
+    .mediaNavMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 830px;
+        left: 16px;
+    }
+    .mediaNavMenu div {
+        display: flex;
+        margin-top: 14px;
+    }
+    .mediaNavMenu div:nth-of-type(1) {
+        margin-top: 0;
+    }
+    .mediaNavMenu p {
+        margin-left: 32px;
+    }
+    .mediaNavMenu div p:nth-of-type(1) {
+        margin-left: 0;
+    }
+    .mediaNavMenu a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-family: "Euclid Circular M";
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.08em;
+    }
+    .mediaPhone {
+        display: block;
+        position: absolute;
+        left: 122px;
+        top: 1050px;
+        color: #FFFFFF;
+        font-family: "Euclid Circular M";
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.08em;
+    }
+    .mediaMail {
+        display: block;
+        position: absolute;
+        left: 79px;
+        top: 1100px;
+        color: rgba(255, 255, 255, 0.64);
+        font-family: "Euclid Circular M";
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.08em;
+    }
+}

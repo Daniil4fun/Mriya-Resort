@@ -1,0 +1,13 @@
+.footerLogo {
+    position: absolute;
+    top: 3633px;
+    left: 687px;
+}
+
+@media (max-width: 360px) {
+    .footerLogo {
+        position: inherit;
+        margin-top: 144px;
+        margin-left: 147px;
+    }
+}

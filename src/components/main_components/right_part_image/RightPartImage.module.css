@@ -1,0 +1,15 @@
+.rightPartImage {
+    position: absolute;
+    top: 1632px;
+    left: 916px;
+    z-index: -1;
+}
+
+@media (max-width: 360px) {
+    .rightPartImage {
+        width: 213px;
+        height: 345px;
+        top: 2148px;
+        left: 147px;
+    }
+}

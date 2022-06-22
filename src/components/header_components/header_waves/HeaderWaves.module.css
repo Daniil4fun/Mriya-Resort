@@ -1,0 +1,11 @@
+.headerWaves {
+    position: absolute;
+    left: 49px;
+    top: 104px;
+}
+
+@media (max-width: 360px) {
+    .headerWaves {
+        left: -75px;
+    }
+}

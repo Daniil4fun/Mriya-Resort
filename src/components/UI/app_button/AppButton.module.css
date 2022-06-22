@@ -1,0 +1,13 @@
+.appButton {
+    width: 200px;
+    height: 64px;
+    border: 1px solid #BCA56A;
+    border-radius: 8px;
+    background: transparent;
+    font-family: "Euclid Circular M";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+}

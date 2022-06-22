@@ -1,0 +1,63 @@
+.headerResort {
+    margin-left: 140px;
+    margin-top: 79px;
+}
+
+.headerResort h3 {
+    font-family: "Euclid Circular M";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+}
+
+.headerResort h1 {
+    font-family: "SangBleu Kingdom R";
+    margin-top: 47px;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+}
+
+.headerResort p {
+    margin-top: 41px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.headerResort div {
+    display: flex;
+    margin-top: 57px;
+}
+
+.mediaBr {
+    display: none;
+}
+
+@media (max-width: 360px) {
+    .headerResort {
+        margin-left: 16px;
+    }
+    .headerResort h1 {
+        margin-top: 30px;
+        font-size: 64px;
+        line-height: 72px;
+    }
+    .headerResort p {
+        font-size: 20px;
+        margin-top: 28px;
+    }
+    .desktopBr {
+        display: none;
+    }
+    .mediaBr {
+        display: block;
+    }
+    #mediaBtnLeft {
+        width: 156px !important;
+    }
+    #mediaBtnRight {
+        width: 156px !important;
+        margin-left: 16px !important;
+    }
+}

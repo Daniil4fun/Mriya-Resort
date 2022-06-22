@@ -1,0 +1,21 @@
+.appHeaderNav {
+    position: relative;
+    font-family: "Euclid Circular M";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    color: #3D3C3C;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(61, 60, 60, 0.08);
+    z-index: 1;
+}
+
+@media (max-width: 360px) {
+    .appHeaderNav {
+        position: relative;
+        display: flex;
+        background: #FFF;
+    }
+}

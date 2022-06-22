@@ -1,0 +1,12 @@
+.tablet {
+    position: absolute;
+    top: 2850px;
+    left: 412px;
+    z-index: 1;
+}
+
+@media (max-width: 360px) {
+    .tablet {
+        display: none;
+    }
+}

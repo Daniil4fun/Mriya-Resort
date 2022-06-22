@@ -1,0 +1,11 @@
+.weather {
+    position: absolute;
+    top: 712px;
+    left: 1057px;
+}
+
+@media (max-width: 360px) {
+    .weather {
+        display: none;
+    }
+}

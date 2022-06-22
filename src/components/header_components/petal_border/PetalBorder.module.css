@@ -1,0 +1,11 @@
+.petalBorder {
+    position: absolute;
+    top: 611.7px;
+    left: 718.99px;
+}
+
+@media (max-width: 360px) {
+    .petalBorder {
+        display: none;
+    }
+}

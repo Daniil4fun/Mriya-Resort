@@ -1,0 +1,13 @@
+.singleWave {
+    position: absolute;
+    top: 1512px;
+    left: 647px;
+}
+
+@media (max-width: 360px) {
+    .singleWave {
+        position: inherit;
+        margin-top: 72px;
+        margin-left: 107px;
+    }
+}

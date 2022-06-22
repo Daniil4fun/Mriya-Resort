@@ -1,0 +1,20 @@
+.headerMenu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background: #3D3C3C;
+}
+
+@media (max-width: 360px) {
+    .headerMenu {
+        width: 80px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

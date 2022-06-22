@@ -1,0 +1,11 @@
+.shortVerticalStripe {
+    position: absolute;
+    top: 672px;
+    left: 172px;
+}
+
+@media (max-width: 360px) {
+    .shortVerticalStripe {
+        display: none;
+    }
+}

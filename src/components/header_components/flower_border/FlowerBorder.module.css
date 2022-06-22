@@ -1,0 +1,21 @@
+.flowerBorder {
+    position: absolute;
+    top: 0px;
+    left: 483px;
+}
+
+.mediaFlowerBorder {
+    display: none;
+}
+
+@media (max-width: 360px) {
+    .flowerBorder {
+        display: none;
+    }
+    .mediaFlowerBorder {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 203px;
+    }
+}

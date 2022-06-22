@@ -1,0 +1,11 @@
+.pin {
+    position: absolute;
+    top: 802px;
+    left: 1104px;
+}
+
+@media (max-width: 360px) {
+    .pin {
+        display: none;
+    }
+}

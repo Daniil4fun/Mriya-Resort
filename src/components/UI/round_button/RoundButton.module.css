@@ -1,0 +1,18 @@
+.roundButton {
+    width: 64px;
+    height: 64px;
+    border: 1px solid #D9C287;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 360px) {
+    .roundButton {
+        position: relative !important;
+        left: 148px !important;
+        top: 48px !important;
+    }
+}

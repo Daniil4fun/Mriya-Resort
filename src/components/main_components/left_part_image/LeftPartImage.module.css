@@ -1,0 +1,14 @@
+.leftPartImage {
+    position: absolute;
+    top: 1272px;
+    left: 0;
+    z-index: -1;
+}
+
+@media (max-width: 360px) {
+    .leftPartImage {
+        width: 365px;
+        top: 3460px;
+        left: 0;
+    }
+}
